@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" >
+    <title>SVG Research</title>
+</head>
+<body>
+    <div class="box">
+        <svg class="svg">
+            <rect width="200" height="150" fill="red" x="100" y="75" rx="5" ry="30"/>
+        </svg>
+        <svg class="svg">
+            <circle id="circle" r="100" fill="green" 
+                    cx="50%" cy="50%" stroke="blue"
+                    stroke-width="20" stroke-dasharray="20"
+            />
+        </svg>
+        <svg class="svg">
+            <ellipse ry="50" rx="100" fill="gold" cx="50%" cy="50%"/>
+        </svg>
+        <svg class="svg">
+            <polygon points="50,50 350,50 200,250" fill="orange"/>
+        </svg>
+        <svg class="svg">
+            <line x1="50" y1="50" x2="350" y2="250" stroke="brown"/>
+        </svg>
+        <svg class="svg">
+            <polyline class="polyline" points="50,50 50,150 150,150 150,50 250,50 350,250" stroke="limegreen" stroke-width="10" fill="none"/>
+        </svg>
+        <svg class="svg">
+            <circle id="circle" r="100" fill="green" 
+                    cx="50%" cy="50%"
+            />
+            <circle id="circle" r="50" fill="green" 
+                    cx="50%" cy="50%" stroke="blue"
+                    stroke-width="100" stroke-dasharray="20"
+            />
+        </svg>
+        <svg class="svg">
+            <polygon points="50,50 350,50 200,250" fill="none" stroke="blue"
+            stroke-width="5" stroke-dasharray="40" stroke-dashoffset="30"/>
+        </svg>
+        <svg  width="472" height="675" viewBox="0 0 472 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="path"
+                d="M218 315C214 320 109 452 109 457C109 462 282 509 120 509C-42 509 -29 734 99 659C267 580 598 263 419 244C275.8 228.8 240 75 240 0"
+                stroke="transparent" />
+            <text class="text">
+                <textPath href="#path">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis necessitatibus earum modi veritatis cum blanditiis est voluptate eaque ex.
+                </textPath>
+            </text>
+        </svg>
+        <svg class="svg svg-rect">
+            <rect class="rect" width="200" height="150" fill="red" x="100" y="75" rx="30"/>
+        </svg>
+        <svg class="svg svg-circle">
+            <circle id="circle" r="100" fill="green" 
+                    cx="50%" cy="50%"
+            />
+            <circle class="circle" id="circle" r="50" fill="green" 
+                    cx="50%" cy="50%" stroke="blue"
+                    stroke-width="100"
+            />
+        </svg>
+            
+    </div>
+    <svg class="apple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="500" height="500">
+        <path class="apple-path" d="M336 128c-32 0-80.02 16.03-112 32.03c-32.01-16-79.1-32.02-111.1-32.03C32 128 .4134 210.5 
+                 .0033 288c-.5313 99.97 63.99 224 159.1 224c32 0 48-16 64-16c16 0 32 16 64 16c96 0 160.4-122.8 
+                 159.1-224C447.7 211.6 416 128 336 128zM320 32V0h-32C243.8 0 208 35.82 208 80v32h32C284.2 112 320 76.18 320 32z"/>
+    </svg>
+    <img class="apple-image" src="images/apple.jpg" src="apple"/>
+   
+    <svg class="apple" width="1" height="1" viewBox="0 0 1 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <clipPath id="apple-svg-mask" clipPathUnits="objectBoundingBox">
+            <path d="M0.712891 0.25C0.650391 0.25 0.556601 0.281309 0.494141 0.312559C0.431621 0.281309 0.339648 0.25002 0.277148 
+        0.25C0.119141 0.25 0.057448 0.411133 0.056647 0.5625C0.0556093 0.757754 0.181627 1 0.367389 1C0.429889 1 0.461139 0.96875
+         0.492389 0.96875C0.523639 0.96875 0.554889 1 0.617389 1C0.804889 1 0.93067 0.760156 0.928131 0.5625C0.931055 0.413281
+          0.869141 0.25 0.712891 0.25ZM0.681641 0.0625V0H0.619141C0.532812 0 0.462891 0.0699609 0.462891 0.15625V0.21875H0.525391C0.611719 
+           0.21875 0.681641 0.148789 0.681641 0.0625Z"/>
+        </clipPath>
+        </svg>
+        
+    <img class="apple-svg-mask" src="images/apple.jpg" src="apple"/>
+    <script src="./script.js"></script>
+</body>
+</html>
